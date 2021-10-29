@@ -34,7 +34,6 @@ app.get('/query-test', (req, res) => {
 })
 
 let foods = []
-    })
 app.post('/food', (req, res) => {
     const { newFood } = req.body
     foods.push(newFood)
